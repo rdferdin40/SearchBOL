@@ -1,0 +1,34 @@
+# Environment and configuration
+.env
+*.local
+
+# Logs
+logs/*.log
+*.log
+
+# Temporary files
+tmp/
+temp/
+/tmp/bolsearch_ocr/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dependencies (if using Composer)
+/vendor/
+composer.lock
+
+# User uploads (if any)
+uploads/
+
+# Cache
+cache/
+*.cache
