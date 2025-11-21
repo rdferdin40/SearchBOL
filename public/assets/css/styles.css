@@ -1,0 +1,25 @@
+/* BOLSearch Styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+}
+
+#resultsContainer {
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+#resultsContainer > div {
+    cursor: pointer;
+    padding: 10px;
+    transition: background-color 0.2s;
+}
+
+#resultsContainer > div:hover {
+    background-color: #f8f9fa;
+}
+
+/* For full implementation, see IMPLEMENTATION_STATUS.md */
